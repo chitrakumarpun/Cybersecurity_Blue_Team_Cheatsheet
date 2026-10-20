@@ -1,20 +1,13 @@
-## Blue-team reminder
-Use commands only on systems and data you own or are explicitly authorized to investigate.
-
 # Linux Basics for Blue Team / SOC Analysts
-
 ## Identity and current location
 
 ### Show current user
-
 ```bash
 whoami
 ```
-
-**Use case:** Confirm which account is running commands, especially before changing files or collecting evidence.
+**Use Case:**Confirm which account is running commands, especially before changing files or collecting evidence.
 
 ### Show current and past login identity
-
 ```bash
 id
 ```
@@ -43,25 +36,6 @@ who
 w
 ```
 
-**Use case:** See what each logged-in user is currently doing (their running process and idle time) — helps spot suspicious active sessions.
-
-### Show last logins
-
-```bash
-last
-```
-
-**Use case:** Review recent login history (including reboots) to check for logins at unusual times or from unexpected sources.
-
-### Show failed login attempts
-
-```bash
-lastb
-```
-
-**Use case:** Identify brute-force attempts or failed authentication, a common precursor to account compromise.
-
----
 
 ## System and process information
 
@@ -504,3 +478,6 @@ dpkg -l
 ```
 
 **Use case:** Review installed software for anything unexpected or not sanctioned (Debian/Ubuntu).
+
+## Blue-team reminder
+Use commands only on systems and data you own or are explicitly authorized to investigate.
