@@ -5,7 +5,7 @@
 ```bash
 whoami
 ```
-**Use Case:**Confirm which account is running commands, especially before changing files or collecting evidence.
+**Use Case:** Confirm which account is running commands, especially before changing files or collecting evidence.
 
 ### Show current and past login identity
 ```bash
